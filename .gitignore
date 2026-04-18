@@ -1,0 +1,164 @@
+# Root level .gitignore for resume-ai project
+
+# Frontend specific
+Frontend/node_modules/
+Frontend/dist/
+Frontend/dist-ssr/
+Frontend/*.local
+Frontend/build/
+Frontend/.cache/
+Frontend/.parcel-cache/
+Frontend/.next/
+Frontend/.nuxt/
+Frontend/.out/
+Frontend/.storybook-out/
+Frontend/test-results/
+Frontend/playwright-report/
+Frontend/coverage/
+Frontend/.nyc_output/
+Frontend/.eslintcache
+Frontend/logs/
+Frontend/*.log
+Frontend/.yarn-integrity
+Frontend/.tsbuildinfo
+Frontend/tmp/
+Frontend/temp/
+
+# Backend specific
+Backend/node_modules/
+Backend/dist/
+Backend/build/
+Backend/logs/
+Backend/*.log
+Backend/coverage/
+Backend/.nyc_output/
+Backend/.eslintcache
+Backend/.cache/
+Backend/.parcel-cache/
+Backend/tmp/
+Backend/temp/
+Backend/test-results/
+Backend/playwright-report/
+Backend/*.db
+Backend/*.sqlite
+Backend/*.sqlite3
+Backend/*.tsbuildinfo
+
+# Environment variables (CRITICAL - Never commit these)
+Frontend/.env
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+Backend/.env
+Backend/.env.local
+Backend/.env.development.local
+Backend/.env.test.local
+Backend/.env.production.local
+
+# Package manager lock files (keep one at root if preferred)
+# Uncomment these lines if you want to manage dependencies at root level
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# IDE and editor files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Test files
+test-results/
+playwright-report/
+test-results.xml
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Build artifacts
+*.tgz
+*.tar.gz
