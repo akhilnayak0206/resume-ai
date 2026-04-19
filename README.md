@@ -22,13 +22,11 @@ A full-stack web application that helps users prepare for interviews by analyzin
 ### Home Dashboard
 ![Home](screenshots/home.png)
 
-### Interview Analysis
+### Resume Upload
 ![Interview](screenshots/interview.png)
-
-### Report Generation
 ![Report](screenshots/report.png)
 
-### Resume Upload
+### Interview Analysis
 ![Resume Upload](screenshots/resume-upload.png)
 
 ### Interview Report
