@@ -241,6 +241,29 @@ $font-stack:     system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot
     }
 }
 
+// ── Upload Notification ──────────────────────────────────────────────────────────
+.upload-notification {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background-color: rgba(76, 175, 80, 0.1);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+    border-radius: 0.4rem;
+    margin-top: 0.5rem;
+
+    &__icon {
+        color: #4caf50;
+        flex-shrink: 0;
+    }
+
+    &__text {
+        font-size: 0.8rem;
+        color: #81c784;
+        font-weight: 500;
+    }
+}
+
 // ── OR Divider ────────────────────────────────────────────────────────────────
 .or-divider {
     display: flex;
